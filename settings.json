@@ -1,6 +1,11 @@
 {
   "DOMAIN_URL": "http://tendering.vgtrk.com",
   "PARSE_URL": "/orders/working",
-  "OUTPUT_EXCEL": "output.xlsx"
+  "OUTPUT_EXCEL": "./tmp/output.xlsx",
 
+  "TOKEN": "1011658786:AAFHOqjw8kOPkLvgyuTbbWupYSFHuNHRcIA",
+  "PROXIES" : {
+    "http": "http://85.132.71.82:3128",
+    "https": "http://85.132.71.82:3128"
+   }
 }
