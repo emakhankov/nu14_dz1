@@ -93,7 +93,6 @@ def get_excel():
             break
 
     df = create_dataframe(rows, domain_url)
-    if s.makedirs(directory)
     df.to_excel(output_excel, engine='xlsxwriter')
 
 
