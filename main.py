@@ -117,7 +117,7 @@ def send_last(message):
         text.append(f'Номер: {row["num"]}')
         text.append(f'ссылка: {row["href"]}')
         text.append(f'Описание: {row["description"]}')
-        print('\n'.join(text))
+
     bot.send_message(message.chat.id, '\n'.join(text))
     update_state(message, STAGE_0)
 
